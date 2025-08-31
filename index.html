@@ -6,6 +6,16 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>You will be direct to somewhere placesss</h1>
+    <h1>You will be direct to somewhere placesss.... 3 DETIK...</h1>
+    <script>
+      const direct = () => {
+        window.location.replace("https://portofolio-6bsv.vercel.app/");
+      };
+      window.addEventListener("load", () => {
+        setTimeout(() => {
+          window.location.replace("https://portofolio-6bsv.vercel.app/");
+        }, 2000);
+      });
+    </script>
   </body>
 </html>
